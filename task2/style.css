@@ -1,0 +1,30 @@
+.container{
+    width: 600px;
+    padding: 30px;
+    margin: auto;
+    border: 1px solid lightgrey;
+}
+
+p{
+    font-size: 48px;
+    font-family: Arial sans-serif;
+    letter-spacing: 1px;
+    position: relative;
+    margin: 5px 0;
+}
+
+
+p::before{
+    font-size: 3px;
+    content: "";
+    width: 20px;
+    height: 20px;
+    padding: 6px 8px;
+    margin: 0 50px 0 20px;
+    background: #AADAE6;
+    border-radius: 50%;
+    position: relative;
+    left: 10px;
+    top: -14px;
+}
+
